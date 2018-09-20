@@ -8,10 +8,14 @@ public class ToDo{
 	private boolean isDone = false;
 	
 	
-	public void addToDo(String i){
+	public ToDo(String i){
 		toDoItem = i;
 		count++;
+		//ToDo();
 	}
+	//public ToDo(){
+	//	count++;
+	//}
 	public String getToDo(){
 		return toDoItem;
 	}
